@@ -1,7 +1,7 @@
 # OVO_project
 
 The point of this project is to optimize **INR (implicit neural representation) for brain scans**. Indeed, the point is to “compress less” zones where the tumor is detected (tanks to a CNN pretrained model) so that the **Dice score** is optimized.
-We start with the database used in the article, from the **Medical Segmentation Decathlon** (https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2 , task01) which is a 7GO tar file with 500 train 3D brain scans (with their tumor masks) and 200 test 3D brain scans. I used google drive to store them, and colab to compute my model.
+We start with the database used in the article, from the [**Medical Segmentation Decathlon**.](https://drive.google.com/drive/folders/1HqEgzS8BV2c7xYNrZdEAnrHk7osJJ--2), task01, which is a 7GO tar file with 500 train 3D brain scans (with their tumor masks) and 200 test 3D brain scans. I used google drive to store them, and colab to compute my model.
 
 As it was done in the article, I was interested in **2D scans of brains** instead of 3D scans. 
 Thus, I created new folders, storing only the middle part of each of the 3D scans, in the middle of the brain, where the 2D scan of the brain is the larger. This code create_2D_database.py is the one responsible for doing that task.
