@@ -35,20 +35,39 @@ This model was the model I was looking to use with a lambda = 0. SINCO_pipeline.
 
 As in the paper, the SINCO pipeline produces better result over this metrics than SIREN alone, as it is shown below:
 
+### Image 395
+
 | SIREN | SINCO |
 |-------|-------|
 | <img src="BRATS_395_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_395_reconstructed_lambda_1e-05_annotated.png" width="300"> |
+
+### Image 293
 
 | SIREN | SINCO |
 |-------|-------|
 | <img src="BRATS_293_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_293_reconstructed_lambda_1e-05_annotated.png" width="300"> |
 
+### Image 001
+
+| SIREN | SINCO |
+|-------|-------|
+| <img src="BRATS_001_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_001_reconstructed_lambda_1e-05_annotated.png" width="300"> |
+
+### Image 002
+
+| SIREN | SINCO |
+|-------|-------|
+| <img src="BRATS_002_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_002_reconstructed_lambda_1e-05_annotated.png" width="300"> |
+
 But sometimes, the resulst is not much better, or even a bit worse compared to SIREN. It is a limit not shown in the paper because it is testing different images.
+
+### Image 271
 
 | SIREN | SINCO |
 |-------|-------|
 | <img src="BRATS_271_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_271_reconstructed_lambda_1e-05_annotated.png" width="300"> |
 
+### Image 465
 
 | SIREN | SINCO |
 |-------|-------|
