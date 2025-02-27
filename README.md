@@ -37,19 +37,22 @@ As in the paper, the SINCO pipeline produces better result over this metrics tha
 
 | SIREN | SINCO |
 |-------|-------|
-| <img src="BRATS_395_reconstructed_lambda_0_annotated.png" width="400"> | <img src="BRATS_395_reconstructed_lambda_1e-05_annotated.png" width="400"> |
+| <img src="BRATS_395_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_395_reconstructed_lambda_1e-05_annotated.png" width="300"> |
 
 | SIREN | SINCO |
 |-------|-------|
-| <img src="BRATS_293_reconstructed_lambda_0_annotated.png" width="400"> | <img src="BRATS_293_reconstructed_lambda_1e-05_annotated.png" width="400"> |
+| <img src="BRATS_293_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_293_reconstructed_lambda_1e-05_annotated.png" width="300"> |
 
 But sometimes, the resulst is not much better, or even a bit worse compared to SIREN. It is a limit not shown in the paper because it is testing different images.
 
 | SIREN | SINCO |
 |-------|-------|
-| <img src="BRATS_271_reconstructed_lambda_0_annotated.png" width="400"> | <img src="BRATS_271_reconstructed_lambda_1e-05_annotated.png" width="400"> |
+| <img src="BRATS_271_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_271_reconstructed_lambda_1e-05_annotated.png" width="300"> |
 
 
 | SIREN | SINCO |
 |-------|-------|
-| <img src="BRATS_465_reconstructed_lambda_0_annotated.png" width="400"> | <img src="BRATS_465_reconstructed_lambda_1e-05_annotated.png" width="400"> |
+| <img src="BRATS_465_reconstructed_lambda_0_annotated.png" width="300"> | <img src="BRATS_465_reconstructed_lambda_1e-05_annotated.png" width="300"> |
+
+
+Unfortunately, I could not test over more images since the inference time was long. But it was still really interesting and I think it is a great improvement to SIREN.
