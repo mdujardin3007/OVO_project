@@ -33,6 +33,7 @@ This model was the model I was looking to use with a lambda = 0. SINCO_pipeline.
 
 <img src="lambda_hyperparameter.png" width="800">
 
+The SINCO model is implamebted in the SINCO_pipeline.py code, calling the U-Net model at each epoch to regularize the optimization.
 As in the paper, the SINCO pipeline produces better result over this metrics than SIREN alone, as it is shown below:
 
 ### Image 395
