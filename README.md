@@ -33,4 +33,12 @@ This model was the model I was looking to use with a lambda = 0. SINCO_pipeline.
 
 <img src="lambda_hyperparameter.png" width="800">
 
+As in the paper, the SINCO pipeline produces better result over this metrics, as it is shown below:
+
+| SIREN | SINCO |
+|-------|-------|
+| <img src="BRATS_395_reconstructed_lambda_0_annotated.png" width="400"> | <img src="BRATS_395_reconstructed_lambda_1e-05_annotated.png" width="400"> |
+
+
+
 
